@@ -1,0 +1,10 @@
+runtime: python312  # Specify the Python version
+
+entrypoint: uvicorn app.main:app --host=0.0.0.0 --port=$PORT  # Use Uvicorn for serving the app
+
+manual_scaling:
+  instances: 1  # Adjust based on your needs
+
+resources:
+  cpu: 1
+  memory_gb: 4  # Adjust memory allocation as necessary
