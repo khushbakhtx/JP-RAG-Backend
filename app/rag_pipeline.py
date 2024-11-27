@@ -1,4 +1,5 @@
 from app.vectorstore import load_vectorstore, retrieve_chunks
+from app.keyword_search import search_using_keywords
 from app.generator import LLMClient
 
 llm_client = LLMClient(api_key="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")
