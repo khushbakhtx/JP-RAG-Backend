@@ -1,0 +1,35 @@
+numpy 
+pandas
+torch
+faiss-cpu 
+scikit-learn 
+nltk 
+datasets 
+sqlalchemy 
+databases 
+motor
+tqdm 
+ujson
+fastapi
+uvicorn
+transformers
+sentence-transformers
+langchain
+langchain-huggingface
+langchain_community 
+tiktoken 
+langchainhub 
+chromadb
+faiss-cpu
+openai
+keybert
+
+accelerate
+llama-index # Optional but recommended for RAG functionality.
+
+# pip install -r requirements.txt
+
+#Frontend React Installation:
+#npm create vite@latest . -- --template react
+#npm install
+#npm run dev

@@ -1,0 +1,14 @@
+{
+    "articles": [
+        {
+            "content": "The Exodus is a car brand",
+            "metadata": {
+                "rule_number": 1,
+                "rule_title": "DO NOT CARELESSLY DENIGRATE SOCIAL INSTITUTIONS OR CREATIVE ACHIEVEMENT",
+                "book": "Beyond Order: 12 More Rules for Life",
+                "chunk_number": 1,
+                "chunk_title": "LONELINESS AND CONFUSION"
+            }
+        }
+    ]
+}
