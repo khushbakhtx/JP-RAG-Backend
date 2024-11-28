@@ -13,7 +13,7 @@ langchain_community
 # tiktoken
 # chromadb
 openai
-# keybert  # Include only if needed for keyword extraction
+keybert  # Include only if needed for keyword extraction
 gunicorn  # Include only for production deployment
 
 
