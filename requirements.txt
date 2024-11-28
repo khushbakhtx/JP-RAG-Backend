@@ -1,26 +1,24 @@
 # numpy
 # pandas
-faiss-cpu
-nltk
-# datasets
-# tqdm
-fastapi
-uvicorn
-# transformers
-sentence-transformers
-langchain
-langchain_community
+faiss-cpu==1.9.0
+nltk==3.9.1
+# tqdm==4.67.0
+fastapi==0.115.5
+uvicorn==0.32.0
+# transformers==4.46.2
+sentence-transformers==3.3.0
+langchain==0.3.8
+langchain_community==0.3.8
 # tiktoken
 # chromadb
-openai
-keybert  # Include only if needed for keyword extraction
+openai==1.55.1
+keybert==0.8.5  # Include only if needed for keyword extraction
 gunicorn  # Include only for production deployment
 
 
 # accelerate
 # llama-index # Optional but recommended for RAG functionality.
 
-# [https://rag-application-443016.uc.r.appspot.com]
 # pip install -r requirements.txt
 
 #Frontend React Installation:
