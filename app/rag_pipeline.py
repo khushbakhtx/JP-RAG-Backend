@@ -2,7 +2,7 @@ from app.vectorstore import load_vectorstore, retrieve_chunks
 from app.keyword_search import search_using_keywords
 from app.generator import LLMClient
 
-llm_client = LLMClient(api_key="hf_*******************************")
+llm_client = LLMClient(api_key="hf_**********************************")
 vectorstore = load_vectorstore()
 
 def get_rag_response(query):
