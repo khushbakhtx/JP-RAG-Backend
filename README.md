@@ -1,6 +1,20 @@
 # **JP-RAG System**
 
+[Frontend Repository](https://github.com/khushbakhtx/JP-RAG-Frontend)
+
+[Demo Video](https://youtu.be/ylLKuNwwqjA)
+
 **JP-RAG** is a Retrieval-Augmented Generation (RAG) project designed to interact with and provide insights from the books *12 Rules for Life* and *Beyond Order: 12 More Rules* by Jordan Peterson. This system uses modern AI techniques to retrieve relevant content from the books and generate meaningful, context-aware responses to user queries.
+
+---
+
+**Precision@10: 70%**
+
+**Q50: 34.1687 seconds**
+
+**Q90: 37.8529 seconds**
+
+**Q99: 37.9644 seconds**
 
 ---
 
