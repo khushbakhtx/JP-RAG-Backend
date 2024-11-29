@@ -13,7 +13,10 @@ class LLMClient:
         Generate a response using the LLM and provided context.
         """
         prompt_text = f"""
-        Answer the following question based on the context provided:
+        You are an AI assistant using Retrieval-Augmented Generation (RAG) to summarize and answer questions specifically about 
+        Jordan Peterson's book *"Beyond Order: 12 More Rules for Life."* 
+
+        Based on the provided context, respond clearly and concisely to the following question. Ensure your answer is grounded in the context.
 
         Context:
         {context}
@@ -21,6 +24,7 @@ class LLMClient:
         Question:
         {user_query}
         """
+
         messages = [{"role": "user", "content": prompt_text}]
         completion = self.client.chat.completions.create(
             model=self.model_name, 
